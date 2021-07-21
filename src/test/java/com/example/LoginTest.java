@@ -12,6 +12,8 @@ public class LoginTest {
         assertEquals(4,Calculation.findMax(new int[]{1,3,4,2}));  
         // correct test case
         assertEquals(-1,Calculation.findMax(new int[]{-12,-1,-3,-4,-2}));
+	        assertEquals(10,Calculation.findMax(new int[]{-12,10,-3,-4,-2}));
+
         
         
         
